@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -13,10 +15,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Depth3
+  - Depth2
+  - Depth1
+  - Depth0
   - 
   - 
   - 
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: map_walk
+    uniqueID: 4117082929
+    locked: 0
+  - name: map_collision
+    uniqueID: 1732711685
+    locked: 0
+  - name: map_char_back
+    uniqueID: 452720449
+    locked: 0
+  - name: map_char
+    uniqueID: 2245567099
+    locked: 0
+  - name: map_goal
+    uniqueID: 404930311
     locked: 0
